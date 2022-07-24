@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #23252c;
+}
+
+.container{
+    padding: 53px 65px;
+    
+}
+
+.main-image{
+    width: 317px;
+    height: 317px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-content{
+    background-color: #1A1B21;
+    height: 399px;
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-text{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+
+.career-text{
+    font-size: 13px; 
+    color: #F3BF99;
+    margin: 0;
+}
+
+.personalwebsite-text{
+    font-size: 10px;
+    color: #F5F5F5;
+    margin-bottom: 15px;
+}
+
+.contact-button-containers{
+    display: flex;
+}
+
+.email-button, .linkedin-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    width: 115px;
+    align-items: center;
+}
+
+.email-button{
+    background-color: white;
+    margin-right: 17px;
+}
+
+.linkedin-button{
+    background-color: #5093E2;
+}
+
+.email-button > h1, .linkedin-button > h1{
+    font-size: 14px;
+    font-weight: medium;
+}
+
+.email-button > h1{
+    color: #374151;
+}
+
+.linkedin-button > h1{
+    color: white;
+}
+
+.email-button > img, .linkedin-button > img{
+    height: 16px;
+    width: 16px;
+    margin-right: 9px;
+}
+
+.paragraph-container{
+    width: 247px;
+    height: 201px;
+    margin-top: 33px;
+}
+
+.content-title{
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.content-body{
+    font-size: 10px;
+    color: #DCDCDC;
+    margin-bottom: 24px;
+}
+
+.footer-container{
+    background-color: #161619;
+    width: 317px;
+    height: 64px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-container > img{
+    height: 25px;
+    width: 25px;
+    margin: 0px 12px 0px 12px;
+}
